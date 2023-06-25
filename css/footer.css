@@ -1,0 +1,19 @@
+.footer {
+  background-color: var(--container-color);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer-container {
+  padding: 1.5rem 0 1.5rem;
+}
+
+.footer-copy {
+  display: block;
+  color: var(--title-color);
+  text-align: center;
+  font-size: var(--smaller-font-size);
+}
+
+.footer-copy > a {
+  color: var(--primary-color);
+}

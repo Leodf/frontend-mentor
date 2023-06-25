@@ -4,27 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FrontEnd Mentor Challenges</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/challenges.css" />
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />
   </head>
-  <body></body>
-    <header>
-        <h1>FrontEnd Mentor Challenges</h1>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav-logo"
+          ><span>FrontEnd Mentor</span> Challenges</a
+        >
+      </nav>
     </header>
-    <main>
-      <section id="projects">
-          <h2>Projects</h2>
-          <div class="projects-container">
-            <div class="project-card">
-                <img src="images/challenge-1.png" alt="Project 1">
-                <h3>QR code component</h3>
-                <p>The challenge is to build out QR code component and get it looking as close to the design as possible.</p>
-                <a href="#">See more</a>
-            </div>
+    <main class="main">
+      <section class="section" id="challenges">
+        <h2 class="section-title">Challenges</h2>
+        <span class="section-subtitle">By Leonardo</span>
+        <div class="challenges-container container grid">
+          <div class="challenges-card">
+            <img
+              class="challenges-img"
+              src="images/challenge-1.png"
+              alt="qrcode"
+            />
+            <h3 class="challenges-title">QRCode challenge</h3>
+            <a
+              class="challenges-button"
+              href="https://leodf.github.io/frontend-mentor/001-qrcode/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              See more
+            </a>
           </div>
+        </div>
       </section>
     </main>
-    <footer>
-        <p>&copy; 2023 Leonardo de Faveri. Todos os direitos reservados.</p>
+    <footer class="footer">
+      <div class="footer-container container">
+        <span class="footer-copy"
+          >&copy; 2023 <a href="index.html">Leonardo de Faveri</a>. Todos os
+          direitos reservados.</span
+        >
+      </div>
     </footer>
   </body>
 </html>
