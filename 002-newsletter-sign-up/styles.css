@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+:root {
+  --primary-color: hsl(4, 100%, 67%);
+  --secondary-color: hsl(234, 29%, 20%);
+  --text-color: hsl(235, 18%, 26%);
+  --text-gray-color: hsl(231, 7%, 60%);
+  --background-color: hsl(0, 0%, 100%);
+}
+
+body {
+  color: var(--text-color);
+  background: var(--secondary-color);
+  font-size: var(--font-default-size);
+  font-weight: var(--font-body);
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  max-width: 968px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  padding: 6rem 0 2rem;
+}
+
+.signup-form {
+  display: flex;
+  gap: 1.5rem;
+  background-color: var(--background-color);
+  border-radius: 20px;
+  margin: 5em;
+  padding: 10px;
+}
+
+.form-section {}
+
+.image-section {}
+
+.message {
+  display: none;
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: var(--container-color);
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-weight: var(--font-medium);
+}
+
+.button:hover {
+  background-color: var(--primary-color-dark);
+}
+
+.button-icon {
+  margin-left: var(--mb-0-5);
+}
+
+.button-flex {
+  display: inline-flex;
+  align-items: center;
+}
